@@ -1,5 +1,7 @@
 # map-website
-Tutorial for September 19, 2019 meetup on how to create a website with GitHub Pages and embed a map created in QGIS
+Tutorial for September 19, 2019 meetup on how to create a website with GitHub Pages and embed a map created in QGIS.
+
+## Follow along at: https://maptimela.github.io/map-website/
 
 ## Topics
 1. What is GitHub?
