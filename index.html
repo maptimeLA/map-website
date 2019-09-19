@@ -32,7 +32,11 @@
 				</section>
 
 				<section>
-					<h3>Thank you to Arup for hosting!!</h3>
+					Follow along with this presentation at: <a href="https://maptimela.github.io/map-website/">https://maptimela.github.io/map-website/</a>
+				</section>
+
+				<section>
+					<h3>Thank you to <a href="https://www.arup.com/">Arup</a> for hosting!!</h3>
 					<img src="images/arup.jpg"></img>
 				</section>
 
@@ -60,16 +64,22 @@
 				</section>
 
 				<section>
-					deleteme: code sample slide
-					<pre><code data-trim data-noescape>
-						var map = L.map('map', {
-								zoomControl:true, maxZoom:28, minZoom:1
-						}).fitBounds([[33.70892097371183,-119.13326083195065],[34.679639066946486,-117.07869093341363]]);
-					</code></pre>
+					It uses repositories to store files related to a project.
+					<img src="images/maptimerepo.png"></img>
+				</section>
+
+				<section>
+					Multiple people can collaborate on a project.
+					<img src="images/contributors.png"></img>
+				</section>
+
+				<section>
+					You can see all the changes made to the files and revert to a prior version if you made a mistake.
+					<img src="images/history.png"></img>
 				</section>
 
 				<section data-background="#fb9fa4">
-					Make a GitHub repository
+					Let's make a GitHub repository
 				</section>
 
 				<section>
@@ -96,16 +106,96 @@
 					<img src="images/qgis-logo.png"></img>
 				</section>
 
-				<section data-background="#fb9fa4">
-					Map mock election sites in QGIS
+				<section>
+					You can use it to make maps,
+					<img src="images/qgismap.png"></img>
+				</section>
+
+				<section>
+					perform analysis,
+					<img src="images/qgisanalysis.png"></img>
+				</section>
+
+				<section>
+					and manage geographic data (create/edit).
+					<img src="images/qgisdata.png"></img>
 				</section>
 
 				<section data-background="#fb9fa4">
-					Make a webmap using QGIS2Web
+					Let's map mock election sites in QGIS
+				</section>
+
+				<section>
+					We want to save the geojson file from: <a href="https://raw.githubusercontent.com/maptimeLA/map-website/master/mock-election-locations.geojson">https://github.com/maptimeLA/map-website</a>
+					<img src="images/geojson.png"></img>
+				</section>
+
+				<section>
+					Open QGIS Desktop.
+					<img src="images/qgisdesktop.png"></img>
+				</section>
+
+				<section>
+					Drag and drop the geojson file into the map (or go to Layer, Add Layer, Add Vector Layer)
+					<img src="images/addlayer.png"></img>
+				</section>
+
+				<section>
+					You should see points. Click the "i" in a blue circle icon and click on a point.
+					<img src="images/explore.png"></img>
+				</section>
+
+				<section>
+					A basemap would be helpful for context. It is a plugin (go to Plugins, Manage & Install Plugins).
+					<img src="images/plugin.png"></img>
+				</section>
+
+				<section>
+					Search for and install the OpenLayers plugin.
+					<img src="images/openlayers.png"></img>
+				</section>
+
+				<section>
+					Go to Web, OpenLayers and add a basemap (I recommend OpenStreetMap or Stamen Toner Lite).
+					<img src="images/basemap.png"></img>
 				</section>
 
 				<section data-background="#fb9fa4">
-					Upload your map to GitHub
+					Let's make a webmap using QGIS2Web
+				</section>
+
+				<section>
+					We need another plugin. Search for and install QGIS2Web.
+					<img src="images/qgis2web.png"></img>
+				</section>
+
+				<section>
+					Click the icon that looks like a blue tile with a leaf on it.
+					<img src="images/qgis2web2.png"></img>
+				</section>
+
+				<section>
+					Toggle the button at the bottom for Leaflet.
+					<img src="images/qgis2web3.png"></img>
+				</section>
+
+				<section>
+					On the Appearance tab you can add several widgets. Experiment & click the Update Preview button.
+					<img src="images/qgis2web4.png"></img>
+				</section>
+
+				<section>
+					On the Export tab select a folder on your computer named qgis2web and click Export.
+					<img src="images/qgis2web5.png"></img>
+				</section>
+
+				<section>
+					Go to that folder and you will see several folders/files. If you have Atom, open the QGIS2Web folder & look at the code.
+					<img src="images/atom.png"></img>
+				</section>
+
+				<section data-background="#fb9fa4">
+					Let's upload the map to GitHub
 				</section>
 
 				<section>
@@ -114,7 +204,7 @@
 				</section>
 
 				<section data-background="#fb9fa4">
-					Use GitHub Pages to create a web page
+					Let's use GitHub Pages to create a web page
 				</section>
 
 				<section>
@@ -127,8 +217,65 @@
 					<img src="images/githubpages.jpg"></img>
 				</section>
 
+				<section>
+					Select your Master branch and click on Choose a Theme.
+					<img src="images/theme.png"></img>
+				</section>
+
+				<section>
+					Pick any theme and click Select Theme and Commit.
+					<img src="images/theme2.png"></img>
+				</section>
+
+				<section>
+					You can see your site by going to: https://youraccount.github.io/yourrepo
+				</section>
+
+				<section>
+					Create an index.md file (this will be your home page)
+					<img src="images/createfile.png"></img>
+				</section>
+
+				<section>
+					You can use html or <a href="https://www.markdownguide.org/basic-syntaxMarkdown">Markdown</a>.
+					<img src="images/markdown.png"></img>
+				</section>
+
 				<section data-background="#fb9fa4">
-					Add your map to your GitHub pages site
+					Let's add your map to your GitHub pages site
+				</section>
+
+				<section>
+					You can see your map by going to https://youraccount.github.io/yourrepo/qgis2web
+					<img src="images/webmap.png"></img>
+				</section>
+
+				<section>
+					Let's embed your map into your main web page.
+					<img src="images/embed.png"></img>
+				</section>
+
+				<section>
+					Open your index.md file in GitHub and click the pencil icon.
+					<img src="images/edit.png"></img>
+				</section>
+
+				<section>
+					Add this code wherever you want your map to appear:
+					<pre><code data-trim>
+						<iframe width="100%" height="315" src="qgis2web/index.html" frameborder="0" allowfullscreen></iframe>
+					</code></pre>
+				</section>
+
+				<section>
+					Now people can use your map on your site!
+					<img src="images/embed.png"></img>
+				</section>
+
+				<section>
+					<h2>Good job!</h2>
+					<p></p>
+					<img src="images/maptimelalogo.png"></img>
 				</section>
 
 			</div>
