@@ -14,7 +14,7 @@ Tutorial for September 19, 2019 meetup on how to create a website with GitHub Pa
 8. Add your map to your GitHub pages site
 
 ## Copy & paste embed code
-```
+```html
 <iframe width="100%" height="315" src="qgis2web/index.html" frameborder="0" allowfullscreen></iframe>
 ```
 
